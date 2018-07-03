@@ -1,5 +1,10 @@
 # chorzippy
 Simple Program for Creating Choropleth Maps
+Includes GUI for simple parameter setting and loading of files.
+
+Created and runs in Python 3, but can be converted to .EXE by
+using pyinstaller.
+Dependencies: geopandas, pandas, matplotlib, tkinter
 
 First create an Excel or csv file that has a columnfor 5 digit zip 
 codes and a column with the data you want to graph.
