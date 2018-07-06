@@ -4,7 +4,7 @@ Includes GUI for simple parameter setting and loading of files.
 
 Created and runs in Python 3, but can be converted to .EXE by
 using pyinstaller.
-Dependencies: geopandas, pandas, matplotlib, tkinter
+Dependencies: geopandas, pandas, matplotlib, Gooey
 
 First create an Excel or csv file that has a columnfor 5 digit zip 
 codes and a column with the data you want to graph.
@@ -19,13 +19,12 @@ to plot.
 A file for each state can be found at the following link.
 https://github.com/OpenDataDE/State-zip-code-GeoJSON
 
-Enter the parameters into the parameters screen.
+Enter the parameters into the program.
 For a visual example of the color map options, visit the 
 following site:
 https://matplotlib.org/examples/color/colormaps_reference.html
 
-Click 'Submit'
-Navigate to and select the geojson file.
-Navigate to and select your file with the zip codes and values you 
-want graphed.
 Note that it will take a few moments to create the choropleth.
+
+
+
